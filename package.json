@@ -1,0 +1,52 @@
+{
+  "name": "eop-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@riophae/vue-treeselect": "^0.0.29",
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "countup": "^1.8.2",
+    "echarts": "^4.0.4",
+    "happypack": "^5.0.0-beta.4",
+    "iview": "^2.14.3",
+    "js-cookie": "^2.2.0",
+    "jsencrypt": "^3.0.0-beta.1",
+    "less": "^3.0.1",
+    "less-loader": "^4.1.0",
+    "viser-vue": "^2.3.2",
+    "vue": "^2.5.16",
+    "vue-i18n": "^7.6.0",
+    "vue-router": "^3.0.1",
+    "vue-svg-icon": "^1.2.9",
+    "vuex": "^3.0.1",
+    "wangeditor": "^3.1.1",
+    "xml-loader": "^1.2.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-plugin-eslint": "^3.5.0",
+    "@vue/cli-service": "^3.5.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jsonp": "^0.2.1",
+    "less-loader": "^4.1.0",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "eslintConfig": {},
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
